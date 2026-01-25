@@ -16,7 +16,7 @@ wezterm.on("update-right-status", function(window, pane)
     window:set_right_status(wezterm.format({
       {Attribute={Underline="Double"}},
       {Attribute={Intensity="Bold"}},
-      {Text="Bartender Status"}
+      {Text="Bartender Status Local"}
     }));
 end);
 
